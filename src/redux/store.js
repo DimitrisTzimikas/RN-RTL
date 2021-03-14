@@ -5,7 +5,7 @@ import {composeWithDevTools} from 'redux-devtools-extension/developmentOnly';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {persistStore, persistReducer} from 'redux-persist';
 /* Local Files */
-import {reducers} from './ducks/index.js';
+import {reducers} from './ducks';
 
 const config = {
   key: 'root',

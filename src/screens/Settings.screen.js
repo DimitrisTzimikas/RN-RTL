@@ -13,17 +13,21 @@ const SettingsScreen = () => {
   const {t, locale, setLocale} = useContext(LocalizationContext);
 
   const onChangeLang = (selectedLang) => {
+    if (selectedLang === 'ar' || locale === 'ar') {
+      if (selectedLang !== locale) {
+        SplashScreen.show();
+        setLang(selectedLang);
+        setTimeout(() => RNRestart.Restart(), 250);
+        return;
+      }
+    }
+
+    setLang(selectedLang);
+  };
+
+  const setLang = (selectedLang) => {
     dispatch(changeLanguage(selectedLang));
     setLocale(selectedLang);
-
-    setTimeout(() => {
-      if (selectedLang === 'ar' || locale === 'ar') {
-        if (selectedLang !== locale) {
-          SplashScreen.show();
-          RNRestart.Restart();
-        }
-      }
-    }, 250);
   };
 
   return (
