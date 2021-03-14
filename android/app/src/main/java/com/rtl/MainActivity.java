@@ -3,6 +3,7 @@ package com.rtl;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.modules.i18nmanager.I18nUtil;
 import android.os.Bundle;
+import org.devio.rn.splashscreen.SplashScreen;
 
 public class MainActivity extends ReactActivity {
 
@@ -15,6 +16,7 @@ public class MainActivity extends ReactActivity {
     I18nUtil sharedI18nUtilInstance = I18nUtil.getInstance();
     sharedI18nUtilInstance.allowRTL(this, true);
 
+    SplashScreen.show(this, R.style.SplashScreenTheme);
     super.onCreate(savedInstanceState);
    }
 
