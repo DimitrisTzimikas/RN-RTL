@@ -15,8 +15,31 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.14.1",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.11.8",
+    "@react-navigation/devtools": "^5.1.21",
+    "@react-navigation/native": "^5.9.3",
+    "@react-navigation/stack": "^5.14.3",
+    "@welldone-software/why-did-you-render": "^6.1.0",
+    "i18n-js": "^3.8.0",
+    "lodash.memoize": "^4.1.2",
     "react": "16.13.1",
-    "react-native": "0.63.4"
+    "react-native": "0.63.4",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-get-random-values": "^1.6.0",
+    "react-native-localize": "^2.0.2",
+    "react-native-reanimated": "^2.0.0",
+    "react-native-restart": "^0.0.22",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^2.18.1",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^8.1.0",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "uuid": "^3.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -26,6 +49,7 @@
     "eslint": "^6.5.1",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
+    "react-native-bundle-visualizer": "^2.2.1",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
