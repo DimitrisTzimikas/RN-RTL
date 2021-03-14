@@ -24,7 +24,7 @@ const {languageTag} = RNLocalize.findBestAvailableLanguage(
 
 // Configure i18n
 const setI18nConfig = (language) => {
-  let isRTL = language === 'ar' ? true : false;
+  let isRTL = language === 'ar';
 
   translate.cache.clear();
   I18nManager.forceRTL(isRTL);
