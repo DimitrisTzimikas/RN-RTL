@@ -11,7 +11,7 @@ import {I18n, languageTag} from './utils/I18n.js';
 
 enableScreens();
 
-const App = () => {
+const Root = () => {
   const [locale, setLocale] = useState(languageTag);
   const localizationContext = useMemo(
     () => ({
@@ -33,4 +33,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Root;
