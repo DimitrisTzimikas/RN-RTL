@@ -1,4 +1,4 @@
-/* Modules */
+/* Libraries */
 import 'react-native-gesture-handler';
 import {enableScreens} from 'react-native-screens';
 import React, {useMemo, useState} from 'react';

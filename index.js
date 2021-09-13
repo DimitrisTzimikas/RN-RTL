@@ -1,5 +1,5 @@
 import './src/utils/wdyr';
-/* Modules */
+/* Libraries */
 import 'react-native-get-random-values';
 import {AppRegistry} from 'react-native';
 /* Local Files */

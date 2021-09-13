@@ -1,4 +1,4 @@
-/* Modules */
+/* Libraries */
 import React, {useRef} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {useReduxDevToolsExtension} from '@react-navigation/devtools';

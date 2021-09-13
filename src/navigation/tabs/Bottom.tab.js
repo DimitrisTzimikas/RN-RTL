@@ -1,4 +1,4 @@
-/* Modules */
+/* Libraries */
 import React, {useContext} from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 /* Local Files */

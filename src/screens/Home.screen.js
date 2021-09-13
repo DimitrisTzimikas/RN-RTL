@@ -1,4 +1,4 @@
-/* Modules */
+/* Libraries */
 import React, {useContext, useEffect, useState} from 'react';
 import {
   StyleSheet,

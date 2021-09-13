@@ -1,4 +1,4 @@
-/* Modules */
+/* Libraries */
 import React, {useContext} from 'react';
 import {StyleSheet, View, Button, Text} from 'react-native';
 import {useDispatch} from 'react-redux';

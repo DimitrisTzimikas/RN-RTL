@@ -1,4 +1,4 @@
-/* Modules */
+/* Libraries */
 import React from 'react';
 import {Text} from 'react-native';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
